@@ -1,7 +1,5 @@
 FROM ubuntu:20.04
 
-ARG DISPLAY=127.0.0.1:0
-
 ARG TZ=UTC
 
 RUN useradd -ms /bin/bash appimages
